@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Time Table"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+
+        <Button
+            android:id="@+id/btnMonday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Monday" />
+
+        <Button
+            android:id="@+id/btnTuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnWednesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnThursday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thursday"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnFriday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Friday"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnSaturday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saturday"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnSunday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sunday"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
